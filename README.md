@@ -1,2 +1,2 @@
-# calc.github.io
+# Calculator Project
 A simple JavaScript calculator. 
