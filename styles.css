@@ -1,4 +1,3 @@
-
 body{
     background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
@@ -6,12 +5,12 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
-table{
-    
-    margin-left: 200px;
+
+.main{
+    margin: 10% 0;
 }
-.container{
-    margin: 10% 15%;
+table{
+    margin: 0 auto;
 }
 .calculator{
     text-align: center;
@@ -22,7 +21,6 @@ input[type=text]{
     background-color: transparent;
     border-radius: 5px;
     margin-bottom: 20px;
-    /* font-weight: bold; */
 }
 input[type=button]{
     font-family: 'Roboto Mono',
@@ -40,11 +38,9 @@ input[type=button]{
     height: 50px;
     width: 100%;
 }
-
 .clear-button{
     width: 100%;
 }
-
 .footer {
     position: fixed;
     left: 0;
@@ -61,12 +57,11 @@ a i {
 .social-icon {
     margin: 20px 10px;
 }
-
 @media (max-width: 1000px){
     table{
         margin: 50px auto;
     }
-    .container{
+    .main{
         margin: 0;
     }
     .history-display{
