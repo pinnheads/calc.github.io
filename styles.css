@@ -63,8 +63,10 @@ a i {
     }
     .main{
         margin: 0;
+        height: 100%;
     }
     .history-display{
         border: none;
+        margin-bottom: 20%;
     }
 }
